@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+.full-width-all {
+  max-width: 1440px;
+}
+.background_img {
+  background: url(./background.svg) center center / cover;
+}

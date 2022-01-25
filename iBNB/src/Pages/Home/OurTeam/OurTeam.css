@@ -1,0 +1,72 @@
+.team_container {
+  padding: 55px 172px 126px;
+  max-width: 1360px;
+  height: auto;
+}
+@media (max-width:768px){
+  .team_container{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+.team_title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  padding-bottom: 38px;
+  color: #1f1f23;
+}
+.btn_team:focus {
+  color: white;
+  background-color: black;
+}
+.btn_team {
+  border-radius: 58px;
+  color: black;
+  background-color: white;
+}
+.btn_padding {
+  padding: 12px 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+}
+.person_name {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #363639;
+  margin-top: 18px;
+}
+.person_info {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #79797b;
+    margin-top: 6px;
+  }
+  .person_card {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    margin-right: 12px;
+    margin-top: 18px;
+  }
+  .person_card_color01 {
+    background: #e1dbf2;
+  }
+  .person_card_color02 {
+    background: #f8dcce;
+  }
+  

@@ -1,0 +1,57 @@
+.container {
+  margin-top: 15px;
+  height: 73px;
+  max-width: 1360px;
+  background-color: white;
+  position: relative;
+}
+.container_border01 {
+  border-radius: 20px 20px 20px 0;
+}
+.container_border02 {
+  border-radius: 20px;
+}
+.padding {
+  padding: 18px 60px 15px;
+}
+.logo-title {
+  font-family: Gilroy;
+  line-height: 26px;
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+}
+.btn {
+  height: 40px;
+  width: 127px;
+  border-radius: 12px;
+  background-color: black;
+  padding: 12px 27px 11px;
+}
+.btn_title {
+  font-size: 14px;
+  line-height: 16.7px;
+}
+.mg_bottom {
+  z-index: 30;
+  background-color: white;
+}
+.menu_spread {
+  height: 68px;
+  width: 276px;
+  padding-top: 22px;
+  padding-left: 60px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Gilroy;
+  color: black;
+}
+.menu_spread:hover {
+  color: white;
+  background-color: black;
+}
+.menu_spread_border {
+  border-radius: 0 0 20px 20px;
+}

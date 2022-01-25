@@ -1,0 +1,85 @@
+.Roadmap_container {
+  max-width: 1020px;
+  height: auto;
+  padding-top: 55px;
+  margin-bottom: 247px;
+}
+.Roadmap_title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 72px;
+  color: #1f1f23;
+  margin-bottom: 84px;
+}
+.img_01 {
+  max-width: 435px;
+  height: 480px;
+  display: block;
+}
+@media (max-width: 1280px) {
+  .Roadmap_container {
+    margin-left: 132px;
+    margin-right: 132px;
+  }
+}
+@media (max-width: 1024px) {
+  .dotted-line {
+    display: none;
+  }
+  .card_container {
+    margin: 0 auto 20px;
+  }
+  .Roadmap_title {
+    text-align: center;
+  }
+  .img_01,
+  .img_02 {
+    margin: 0 auto 20px;
+    display: block;
+  }
+}
+@media (max-width: 640px) {
+  .img_01,
+  .img_02 {
+    display: none;
+  }
+}
+.img_02 {
+  max-width: 435px;
+  height: 508x;
+}
+.card_container {
+  max-width: 490px;
+  /* height: 662px; */
+  padding: 36px 42px 36px 32px;
+  background: #ffffff;
+  box-shadow: 0px 24px 64px rgba(156, 149, 149, 0.05);
+  border-radius: 12px;
+}
+.card_logo {
+  height: 41px;
+  width: 41px;
+  border-radius: 7px;
+}
+.card_logo_color01 {
+  background-color: #ea4d7f;
+}
+.card_logo_color02 {
+  background-color: #5b70ff;
+}
+.card_subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+.card_list_logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+.dotted-line {
+  margin: 0 atuo;
+}

@@ -1,0 +1,28 @@
+.person_info {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #79797b;
+  margin-top: 6px;
+}
+.person_border {
+  border-radius: 20px;
+}
+.person_card {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  margin-right: 12px;
+  margin-top: 18px;
+}
+.person_card_color01 {
+  background: #e1dbf2;
+}
+.person_card_color02 {
+  background: #f8dcce;
+}

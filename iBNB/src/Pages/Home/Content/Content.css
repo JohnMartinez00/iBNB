@@ -1,0 +1,358 @@
+.main-content {
+  max-width: 1440px;
+  margin-top: 136px;
+}
+.content_box {
+  width: 509px;
+  height: auto;
+  margin-left: 127px; 
+  padding-right: 0;
+}
+
+@media (max-width: 1024px) {
+  .content_box {
+    width: 100vw;
+    padding-left: 0;
+  }
+  .content_sm {
+    width: 70%;
+    margin-top: 50px;
+  }
+  .main_img {
+    display: none;
+  }
+  .content{
+    margin: 0 auto;
+  }
+}
+
+.main_right-mr {
+  margin-right: 139px;
+}
+.content {
+  font-family: Gilroy;
+  font-weight: bold;
+  line-height: 71px;
+  text-align: left;
+  color: #1f1f23;
+  letter-spacing: -0.57px;
+}
+
+.text_store {
+  position: absolute;
+  width: 75.06px;
+  height: 15.62px;
+  left: calc(50% - 75.06px / 2 + 13.03px);
+  top: calc(50% - 15.62px / 2 + 6.31px);
+  color: #ffffff;
+}
+.content_sm {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 51px;
+}
+.rec_mg {
+  margin-top: -12px;
+}
+.rec {
+  height: 1px;
+  width: 525px;
+  background-color: #dfdfdf;
+}
+.content_text {
+  font-family: Gilroy;
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #73737f;
+}
+.content_text_mg1 {
+  margin-top: 48px;
+}
+.background_img_trade {
+  width: 403px;
+  height: 89px;
+  background: #ffffff;
+  opacity: 0.6;
+  border-radius: 9px;
+  padding: 20px 19px 19px;
+  margin-top: 18px;
+  margin-bottom: 39px;
+}
+.stay_notified {
+  width: 211px;
+  height: 62px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 36px;
+  background: #1f1f23;
+  border-radius: 16px;
+  color: white;
+  margin-bottom: 77px;
+}
+.btn_store {
+  width: 177px;
+  height: 54px;
+  background: #000000;
+  border: 1px solid #a6a6a6;
+  border-radius: 16px;
+}
+.btn_store_mg {
+  margin-top: 37px;
+  color: white;
+  margin-bottom: 166px;
+}
+.text_download {
+  position: absolute;
+  width: 65px;
+  height: 10px;
+  left: calc(50% - 65px / 2 - 16px);
+  top: calc(50% - 10px / 2 - 16.5px);
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 10px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+.google_logo {
+  height: 25.7px;
+  width: 23px;
+  left: 33px;
+  top: 14px;
+}
+.btn_mg_right {
+  margin-right: 20px;
+}
+.main_choose {
+  border-radius: 36px;
+  padding: 12px 24px;
+  background-color: white;
+  font-family: Gilroy;
+}
+.main_choose:focus {
+  background-color: black;
+  color: white;
+}
+.text_choose01 {
+  width: 74px;
+  line-height: 26px;
+  font-size: 14px;
+}
+.text_choose02 {
+  line-height: 26px;
+  width: 49px;
+  font-size: 14px;
+  height: 26px;
+}
+.text_choose03 {
+  width: 108px;
+  line-height: 26px;
+  font-size: 14px;
+}
+.coming_soon {
+  height: 24px;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 15px;
+  margin-bottom: 79px;
+  margin-left: 207px;
+  color: #f1b832;
+}
+.main_img {
+  width: 529px;
+  height: 608px;
+  display: block;
+}
+.main_img01 {
+  height: 276px;
+  width: 289px;
+  position: absolute;
+  left: 45.37%;
+  right: 0%;
+  top: 51.61%;
+  bottom: 2.86%;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.99);
+  border-radius: 10px;
+}
+.main_img02 {
+  height: 87px;
+  width: 282px;
+  position: absolute;
+  left: 0%;
+  right: 46.63%;
+  top: 33.18%;
+  bottom: 52.51%;
+  z-index: 2;
+  border-radius: 8px;
+}
+.main_img03 {
+  position: absolute;
+  height: 560px;
+  width: 259px;
+  left: 25.83%;
+  right: 25.19%;
+  bottom: 7.75%;
+  border-radius: 32px;
+  border: 8px solid #ffffff;
+  box-shadow: 0px 4px 47px rgba(0, 0, 0, 0.1);
+}
+.trade_img {
+  margin-left: 120px;
+  margin-top: 19px;
+  height: 477px;
+  max-width: 665px;
+  background: rgba(255, 255, 255, 0.6);
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  position: relative;
+}
+.trade_img_back {
+  height: 461px;
+  width: 649px;
+  background: url("./trade.png") no-repeat center center / cover;
+}
+.trade_img_border {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+.trade_img_position {
+  position: absolute;
+  left: -91px;
+  top: 196px;
+}
+.border_color {
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-right: 0;
+  border: solid rgb(255, 255, 255, 0.7) 8px;
+}
+.visacard {
+  position: relative;
+  height: 561px;
+  width: 461px;
+}
+.visa_img_back {
+  position: absolute;
+  height: 560px;
+  width: 259px;
+  right: 0;
+  border-radius: 32px;
+  border: 8px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 4px 47px rgba(0, 0, 0, 0.1);
+}
+.visacardback {
+  position: absolute;
+  height: 182px;
+  width: 291px;
+  top: 249px;
+  left: 43px;
+}
+.visacardfront {
+  position: absolute;
+  height: 182px;
+  width: 291px;
+  top: 312px;
+}
+
+.notified {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.53);
+  filter: blur(14px);
+  z-index: 20;
+}
+.notified_dialogue {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 758px;
+  height: 565px;
+  z-index: 40;
+  background-color: white;
+  border-radius: 8px;
+}
+.notified_wrap {
+  height: 135px;
+  background: rgba(243, 185, 50, 0.72);
+  box-shadow: 0px 1px 10px rgba(31, 31, 35, 0.05);
+  border-radius: 8px 8px 0px 0px;
+}
+.postcard_size {
+  margin-left: 48px;
+  padding-top: 29px;
+  height: 77px;
+  width: 77px;
+}
+.cross {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+.notified_content {
+  padding-top: 39px;
+  padding-left: 48px;
+}
+.notified_title {
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1f1f23;
+  padding-bottom: 18px;
+}
+.notified_text {
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 26px;
+  color: #73737f;
+  letter-spacing: -0.4px;
+  padding-right: 166px;
+  padding-bottom: 35px;
+}
+.name_name {
+  width: 44px;
+  line-height: 26px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1f1f23;
+  margin-bottom: 8px;
+}
+.input_name {
+  height: 56px;
+  width: 307px;
+  color: #1f1f23;
+  border-radius: 30px;
+  border: solid #1f1f23 1px;
+  padding-left: 19px;
+}
+.submit_btn {
+  width: 229px;
+  height: 56px;
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+  margin-top: 48px;
+  margin-left: 48px;
+  font-family: Gilroy;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}

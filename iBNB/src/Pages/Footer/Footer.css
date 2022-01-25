@@ -1,0 +1,17 @@
+.footer_container {
+  max-width: 1360px;
+  height: 179px;
+  border-radius: 20px;
+  padding-top: 40px;
+}
+.btn_text {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  width: 119px;
+  height: 40px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
